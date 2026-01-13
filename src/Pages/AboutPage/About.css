@@ -1,0 +1,21 @@
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vh;
+}
+
+.md-container {
+    margin-top: 4.5vh;
+    align-self: center;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    width: 60vw;
+    background-color: #e6e6e6;
+    border: 1px solid #e5e5e5;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    color: #000;
+}
+

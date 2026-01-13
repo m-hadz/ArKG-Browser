@@ -1,0 +1,32 @@
+.navbar-container {
+    position: fixed;
+    top: 0;
+    z-index: 1030;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 6vh;
+    background-color: #27292c
+}
+
+.logo img {
+    padding-top: 0.7vh;
+    margin-right: 0.05vw;
+    height: 40px;
+    width: 40px;
+}
+
+
+.navbar-container a {
+    margin-left: 0.5vw;
+    margin-right: 1vw;
+    text-decoration: none;
+    font-size: larger;
+    padding-top: 1.2vh;
+    padding-bottom: 1.2vh;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}

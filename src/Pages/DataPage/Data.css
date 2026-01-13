@@ -1,0 +1,37 @@
+
+.data-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vh;
+}
+
+.md-container {
+    margin-top: 4.5vh;
+    align-self: center;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 2vh;
+    width: 70vw;
+    background-color: #e6e6e6;
+    border: 1px solid #e5e5e5;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    color: #000;
+}
+
+tr {
+  border-top: 1px solid #c6cbd1;
+  background: #fff;
+}
+
+th,
+td {
+  padding: 6px 13px;
+  border: 1px solid #dfe2e5;
+}
+
+table tr:nth-child(2n) {
+  background: #f6f8fa;
+}
+
